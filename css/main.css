@@ -1,9 +1,13 @@
 /*
  * Estilos de tu proyecto
  */
+ *{
+    box-sizing: border-box;
+ }
  body{
     border: 0px;
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 section{
     display: flex;
@@ -12,7 +16,8 @@ header{
     background-image: url('../assets/images/hero.gif');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 700px;
+    background-position: 0px -100px; 
+    height: 780px;
 }
 nav{ 
     width: 100%;
@@ -47,72 +52,88 @@ li{
    padding: 30px;
    width: 35.5%;
    height: 50%;
+   padding: 20px;
+   color: #352384;
+}
+#button{
+    background-color: #FF00BF;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 160px;
 }
 #open{
    display: flex;
    align-items: flex-start;
-   justify-content: space-between;
+   justify-content: start;
    background-image: linear-gradient(#76278F, #2B1E66);
+   color: white;
 }
 .slogan{
-    width: 400px;
-    padding: 70px 160px;
+    width: 650px;
+    padding: 5px 40px 40px 160px;
     height:630px;
 }
 .cellphone{
-   width: 600px;
-   height:630px;
+   width: 470px;
+   height:495px;
 }
 .discrible{
    height: 500px;
-   width: 450px;
+   width: 440px;
    background-color: white;
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
+   padding: 0px 20px 0px 40px;
 }
 .video{
    height: 500px;
    width: 900px;
 }
-
-
-
 #final{
     display: flex;
     background-color: #333447;
     flex-direction: column;
     color: white;
+    height: 400px;
 }
 #interaction{
     display: flex;
+    justify-content: center;
+    width: 81.5%;
 }
 #keywords{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
 #images{
     display: flex;
     flex-direction: column;
 }
 .store{
-    width: 130px;
-    height: 40px;
+    width: 160px;
+    height: 75px;
     padding: 18px;
 }
 .social{
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .icon{
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 50%;
-    padding: 7px;
-    font-size: 1.2em;    
+    padding: 5px;
+    font-size: 1em;    
 }
 .media{
     border: 1px solid transparent;
     font-size: 2em;
+}
+.face{
+    padding: 5px 9px;
 }
 footer{
     display: flex;
@@ -120,4 +141,5 @@ footer{
     color: white;
     justify-content: center;
     align-content: center;
+    height: 105px;
 }
